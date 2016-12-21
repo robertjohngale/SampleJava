@@ -64,6 +64,12 @@ public class GenericList<T> extends AbstractCollection<T> implements Deque<T>, C
    {
 	  System.out.println("This is the fourth Message Option: " + message );
    }
+   public void printMessage5(string message)
+   {
+	  System.out.println("This is the fifth Message Option: " + message );
+   }
+
+
 
 
 
