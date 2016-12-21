@@ -3,7 +3,7 @@ public class GenericList<T> extends AbstractCollection<T> implements Deque<T>, C
    int n;
    int puppyAge;
    public GenericList() {
-     
+
    }
    public int size()
    {
@@ -25,7 +25,7 @@ public class GenericList<T> extends AbstractCollection<T> implements Deque<T>, C
 	if (n + 1 > a.length) resize;
         for (int j = n; j > i;j--)
 		a[j] = a[i-1];
-	
+
 	a[i] = x;
 	n++;
    }
@@ -52,10 +52,14 @@ public class GenericList<T> extends AbstractCollection<T> implements Deque<T>, C
    {
 	  System.out.println(message );
    }
+   public void printMessage2(string message)
+   {
+	  System.out.println("This is the second Message Option: " + message );
+   }
 
-  
 
-   
+
+
 
    public static void main(String []args) {
       /* Object creation */
