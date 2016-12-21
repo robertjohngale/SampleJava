@@ -1,0 +1,7 @@
+Compileing
+javac Coordinate.java
+- will compile to a .class file with same name as .java file unless otherwise stated
+
+Run
+java -cp . Coordinate
+- will execute the class file (notice that extension is not needed but file must have a main method)
